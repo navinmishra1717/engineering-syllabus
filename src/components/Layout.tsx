@@ -66,7 +66,7 @@ const Layout: React.FC<LayoutProps> = ({
             <div className="mb-4 md:mb-0">
               <p className="text-lg font-semibold">Engineering Syllabus</p>
               <p className="text-sm text-gray-300">
-                Your complete guide to engineering curriculum
+                Your complete guide to the engineering curriculum
               </p>
             </div>
             <div className="flex space-x-6">
