@@ -52,6 +52,7 @@ const SubjectPage = () => {
       </Helmet>
       <Layout
         title={subject.name}
+        description={subject.description}
         breadcrumbs={[
           { name: "Home", path: "/" },
           { name: faculty.name, path: `/faculty/${faculty.id}` },
@@ -122,7 +123,7 @@ const SubjectPage = () => {
         <Separator className="my-8" />
 
         <h2 className="text-2xl font-bold mb-6 text-brand-blue">
-          Chapter Summary Table
+          Evaluation Scheme
         </h2>
         <ChapterTable chapters={subject.chapters} />
       </Layout>
