@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://navinmishra1717.github.io/engineering-syllabus",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
